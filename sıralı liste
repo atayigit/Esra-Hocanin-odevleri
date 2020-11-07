@@ -1,0 +1,10 @@
+liste=[]
+
+lenght=int(input("lütfen kaç tane sayı yazacağınızı girin:"))
+print("\n")
+for n in range(0,lenght):
+    liste.append(int(input("Listenin,{} numarali yerindeki sayiyi girin:".format(n))))
+   
+print("\n") 
+liste.sort()
+print("Listenin siralanmis hali:",liste)
