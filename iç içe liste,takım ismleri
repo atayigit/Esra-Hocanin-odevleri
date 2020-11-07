@@ -1,0 +1,15 @@
+isimler = [] 
+for i in range(0,5):
+    #burada parantez içine kareli parantez koyarak iç içe liste olusturdum.
+    isimler.append([])
+    a=input("isim:")
+    b=input("Soy isim:")
+    c=input("Takim:")
+    isimler[i].append(a)
+    isimler[i].append(b)
+    isimler[i].append(c)
+    print("\n") 
+
+
+		
+print(isimler) 
