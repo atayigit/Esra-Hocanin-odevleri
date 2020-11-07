@@ -1,0 +1,18 @@
+liste=[]
+x=1
+sayaç=0
+
+lenght=int(input("lütfen kaç tane sayı yazacağınızı girin:"))
+print("\n")
+for n in range(0,lenght):
+    liste.append(int(input("Listenin,{} numarali yerindeki sayiyi girin:".format(n))))
+   
+print("\n") 
+
+for n in range(0, len(liste)):
+    if x==int(liste[n]):
+        sayaç+=1
+
+
+
+print("Listenin içinde {} tane 1 vardir".format(sayaç))
