@@ -1,0 +1,3 @@
+sözlük={"Çankaya":"Mustafa Bey""\n""Ezgi Hanim","Etimesgut":"Kerim Bey","Yüzüncüyil":"Oguz Bey"}
+#Çankayada yasayanlari bulmak için sözlük{"Çankaya"} yaziyoruz
+print(sözlük["Çankaya"])
