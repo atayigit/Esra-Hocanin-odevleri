@@ -1,0 +1,14 @@
+a=(1,1,1,2,2,3,3,"Mustafa","Mustafa",3.14,3.14)
+n=0
+liste=[]
+#BU DEMETIN UZUNLUGUMDA TEKRARA DUSMUS TERIMELERI ARIYORUZ
+while n<len(a):
+#count fonksiyonu ile tekrarlanan terimleri buluyoruz
+    if a.count(a[n])>1 and liste.count(a[n])==0:
+        #tekrara düþmmek için and belirteci listeyi kontrol ettim
+        liste.append(a[n])
+
+    n+=1
+
+        
+print(liste)
