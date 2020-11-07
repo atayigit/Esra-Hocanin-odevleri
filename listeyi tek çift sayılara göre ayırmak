@@ -1,0 +1,23 @@
+liste=[]
+liste_tek=[]
+liste_çift=[]
+lenght=int(input("lütfen kaç tane sayı yazacağınızı girin:"))
+print("\n")
+for n in range(0,lenght):
+    liste.append(int(input("Listenin,{} numarali yerindeki sayiyi girin:".format(n))))
+   
+print("\n")
+#tek ve çift sayilari bulmak için while  kullandim
+i=0
+while (i<len(liste)):
+    if liste[i]%2==0:
+        liste_çift.append(liste[i])
+        i+=1
+    else:
+        liste_tek.append(liste[i])
+        i+=1
+
+print(liste_çift, liste_tek)      
+
+
+
