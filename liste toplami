@@ -1,0 +1,15 @@
+toplam=[]
+sayilar_toplami=0
+lenght=int(input("lütfen kaç tane sayı yazacağınızı girin:"))
+print("\n")
+for n in range(0,lenght):
+    toplam.append(int(input("bir sayi girin:")))
+   
+print("\n")   
+for m in range(0,len(toplam)):
+    sayilar_toplami += int(toplam[m])
+    
+    
+
+print("Liste içindeki sayıların toplamı{}'dir.".format(sayilar_toplami))
+               
