@@ -1,0 +1,14 @@
+a=(2,3,4,3.14,"Mustafa",132,"Kemal","Atatürk",5 )
+n=0
+liste=[]
+#BU DEMETIN UZUNLUGUMDA TEKRARA DUSMUS TERIMELERI ARIYORUZ
+while n<len(a):
+#type fonksiyonu ile string terimleri buluyoruz
+    if (type(a[n])== str) and liste.count(a[n])==0:
+        #tekrara düþmmek için and belirteci listeyi kontrol ettim
+       print(a[n])
+
+    n+=1
+
+
+        
