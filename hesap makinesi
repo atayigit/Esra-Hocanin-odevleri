@@ -1,0 +1,31 @@
+a="D"
+cevap=0
+while a=="D":
+    print("toplama için +" "\n" "çikarma için -""\n""bölmek için /""\n""çarpmak için *")
+    islem=input("lütfen yapmak istediginiz islemi girin:")
+    print("\n")
+    sayi_1=int(input("birinci sayiyi girin:"))
+    sayi_2=int(input("ikinci sayiyi girin:"))
+    if islem=="+":
+        cevap=sayi_1 + sayi_2
+        print("Cevabiniz:",cevap)
+        a=input("DEVAM ETMEK ISTIYORSANIZ ""D"" YAZIN,kapatmak için ise herhangi baska bir sey:")
+        
+    elif islem=="-":
+        cevap=sayi_1 - sayi_2
+        print("Cevabiniz:",cevap)
+        a=input("DEVAM ETMEK ISTIYORSANIZ ""D"" YAZIN,kapatmak için ise herhangi baska bir sey:")
+        
+    elif islem=="*":
+        cevap=sayi_1 * sayi_2
+        print("Cevabiniz:",cevap)
+        a=input("DEVAM ETMEK ISTIYORSANIZ ""D"" YAZIN,kapatmak için ise herhangi baska bir sey:")
+        
+    elif islem=="/":
+        cevap=sayi_1 /sayi_2
+        print("Cevabiniz:",cevap)
+        a=input("DEVAM ETMEK ISTIYORSANIZ ""D"" YAZIN,kapatmak için ise herhangi baska bir sey:")
+
+
+
+print(" HESAP MAKINESI KAPANDI")
