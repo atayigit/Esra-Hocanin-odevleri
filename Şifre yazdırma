@@ -1,10 +1,10 @@
 #kullanicidan sifre isteyin , 4 haneli sifre gelene ksdar kullanicidan
 #tekrar sifre isteyin.
 a=input("4 haneli bir sifre girin: ")
-while len(a)!= 4:
-    print(" Sifreniz 4 haneli olmalidir.")
+while len(a)!= 4 or a.isdigit()== False :
+    print(" Sifreniz 4 haneli olmali ve sayilardan olusmalidir.")
     a=input("4 haneli bir sifre girin: ")
 
-else:
-    print("Sifreniz:",a)
+
+print("Sifreniz:",a)
     
