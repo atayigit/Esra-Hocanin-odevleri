@@ -25,6 +25,11 @@ while a=="D":
         cevap=sayi_1 /sayi_2
         print("Cevabiniz:",cevap)
         a=input("DEVAM ETMEK ISTIYORSANIZ ""D"" YAZIN,kapatmak için ise herhangi baska bir sey:")
+    else:
+#burada kullanici bilmedigimiz bir islem girerse diye bir önlem ekledim ,   
+        print("istediginz islemi bilmiyorum,kapasitem sadece 4 islem")
+        print("toplama için +" "\n" "çikarma için -""\n""bölmek için /""\n""çarpmak için *")
+        islem=input("lütfen yapmak istediginiz islemi girin:")
 
 
 
